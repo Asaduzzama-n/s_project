@@ -34,6 +34,7 @@ class Donation(webdriver.Chrome):
         login_button.click()
 
     def view_campaign_card(self):
+
         a_tag = self.find_element(By.CSS_SELECTOR, "div.card a[href^='/campaign/']")
         a_tag.click()
 

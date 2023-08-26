@@ -1,6 +1,8 @@
+import time
+
 from donation.donation import Donation
 from registration.registration import Registration
-
+from report.report import Report
 # with Donation() as don:
 #     don.land_first_page()
 #     don.login_user("smridul191006@bscse.uiu.ac.bd", "Smridul!12@")
@@ -13,9 +15,16 @@ from registration.registration import Registration
 #     don.donation_test()
 #     don.check_donation_update(current_donation, 300)
 
-with Registration() as reg:
-    reg.land_registration_page()
-    # reg.check_successful_registration("Asad", "as232@as.com", "Asf#25Gc")
-    reg.check_password()
+# with Registration() as reg:
+#     reg.land_registration_page()
+#     # reg.check_successful_registration("Asad", "as232@as.com", "Asf#25Gc")
+#     # reg.check_password()
+
+with Report() as rep:
+    rep.land_login_page()
+    rep.login_user("asaduzzaman193146@gmail.com", "asadvai")
+    time.sleep(4)
+    rep.redirect_to_report_generation_page()
+
 while True:
     pass
