@@ -131,3 +131,5 @@ class Donation(webdriver.Chrome):
             print("Donation amount updated successfully!")
         else:
             print("Failed to update donation!")
+            print("Failed to update donation!")
+

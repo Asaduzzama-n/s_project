@@ -1,1 +1,1 @@
-BASE_URL = 'https://fund-future.web.app/'
+BASE_URL = 'http://localhost:3000'

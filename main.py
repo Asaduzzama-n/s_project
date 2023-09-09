@@ -20,11 +20,19 @@ from report.report import Report
 #     # reg.check_successful_registration("Asad", "as232@as.com", "Asf#25Gc")
 #     # reg.check_password()
 
+
 # with Report() as rep:
 #     rep.land_login_page()
 #     rep.login_user("asaduzzaman193146@gmail.com", "asadvai")
 #     time.sleep(4)
 #     rep.redirect_to_report_generation_page()
 
-while True:
-    pass
+# with Report() as rep:
+#     rep.land_login_page()
+#     rep.login_user("asaduzzaman193146@gmail.com", "asadvai")
+#     time.sleep(4)
+#     rep.redirect_to_report_generation_page()
+
+#
+# while True:
+#     pass
